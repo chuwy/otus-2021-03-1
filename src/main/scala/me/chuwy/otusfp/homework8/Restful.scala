@@ -1,4 +1,4 @@
-package package me.chuwy.otusfp.homework8
+package me.chuwy.otusfp.homework8
 
 import cats.effect._
 import com.comcast.ip4s.{Host, Port}
