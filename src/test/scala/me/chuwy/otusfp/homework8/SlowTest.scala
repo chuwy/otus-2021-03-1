@@ -6,7 +6,6 @@ import org.http4s.Status.BadRequest
 import org.http4s.implicits.http4sLiteralsSyntax
 import org.http4s.{Request, Response, Uri}
 import org.scalatest.flatspec.AnyFlatSpec
-import me.chuwy.otusfp.homework8.Restful
 import scala.math.ceil
 
 
