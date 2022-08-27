@@ -5,7 +5,6 @@ import cats.effect.{IO, Ref}
 import org.http4s.implicits.http4sLiteralsSyntax
 import org.http4s.{Request, Response}
 import org.scalatest.flatspec.AnyFlatSpec
-import me.chuwy.otusfp.homework8.Restful
 
 class CounterTest extends AnyFlatSpec {
 
