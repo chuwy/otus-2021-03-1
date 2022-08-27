@@ -1,4 +1,4 @@
-package ru.otus.sgribkov.scaladeveloper
+package me.chuwy.otusfp
 
 import cats.data.{Validated, ValidatedNec}
 import cats.implicits.catsSyntaxTuple3Semigroupal
