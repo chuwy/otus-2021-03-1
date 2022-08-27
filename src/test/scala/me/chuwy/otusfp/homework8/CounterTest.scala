@@ -1,11 +1,11 @@
-package ru.otus.sgribkov.tankbattle.server.objects.scaladeveloper.homework8
+package me.chuwy.otusfp.homework8
 
 import cats.effect.unsafe.implicits.global
 import cats.effect.{IO, Ref}
 import org.http4s.implicits.http4sLiteralsSyntax
 import org.http4s.{Request, Response}
 import org.scalatest.flatspec.AnyFlatSpec
-import ru.otus.sgribkov.scaladeveloper.homework8.Restful
+import me.chuwy.otusfp.homework8.Restful
 
 class CounterTest extends AnyFlatSpec {
 
