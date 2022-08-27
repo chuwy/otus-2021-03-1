@@ -1,4 +1,4 @@
-package ru.otus.sgribkov.scaladeveloper.homework8
+package package me.chuwy.otusfp.homework8
 
 import cats.effect._
 import com.comcast.ip4s.{Host, Port}
