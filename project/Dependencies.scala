@@ -4,17 +4,17 @@ object Dependencies {
 
   object V {
     // Scala
-    val decline          = "2.0.0"
-    val circe            = "0.14.1"
+    val decline          = "2.4.1"
+    val circe            = "0.14.5"
 
-    val catsEffect       = "3.1.1"
-    val catsEffectTest   = "1.1.1"
+    val catsEffect       = "3.4.8"
+    val catsEffectTest   = "1.4.0"
     val http4sVersion    = "1.0.0-M23"
-    val fs2              = "3.0.4"
+    val fs2              = "3.6.1"
 
     // Scala (test only)
-    val specs2           = "4.10.5"
-    val scalaCheck       = "1.15.1"
+    val specs2           = "4.19.2"
+    val scalaCheck       = "1.17.0"
   }
 
   // Scala
