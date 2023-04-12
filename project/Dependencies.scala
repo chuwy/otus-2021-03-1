@@ -18,7 +18,7 @@ object Dependencies {
   }
 
   // Scala
-  val all = List(
+  val all: Seq[ModuleID] = List(
     "com.monovore"               %% "decline"              % V.decline,
     "io.circe"                   %% "circe-core"           % V.circe,
     "io.circe"                   %% "circe-parser"         % V.circe,
@@ -28,6 +28,8 @@ object Dependencies {
 
     "co.fs2"                     %% "fs2-io"               % V.fs2,
 
+    "org.http4s"                 %% "http4s-ember-server"  % V.http4sVersion,
+    "org.http4s"                 %% "http4s-ember-client"  % V.http4sVersion,
     "org.http4s"                 %% "http4s-dsl"           % V.http4sVersion,
     "org.http4s"                 %% "http4s-blaze-server"  % V.http4sVersion,
     "org.http4s"                 %% "http4s-blaze-client"  % V.http4sVersion,
